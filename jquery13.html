@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+<h2>Add Remove Content</h2>
+<p id="test1">This is some text</p>
+<p id="test2">in a paragraph.</p>
+<div id="remTest" style="background-color:yellow;display:block;border:2px solid #000; height:120px;">
+<p>First Element in a Div</p>
+<p>Second Element in a Div</p>
+<p>Third Element in a Div</p>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+</script>
+ <script>
+ $("#test1").append(" appended in a paragraph");
+ $("#test2").prepend(" preappended in a paragraph ");
+ $("#remTest").empty();
+ $("#remTest").remove();
+
+
+
+
+</script>
+</body>
+</html>
